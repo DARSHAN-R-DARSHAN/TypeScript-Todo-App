@@ -32,7 +32,7 @@ function listTodos(): void {
 function completeTodo(id: number): void {
   const todo = todos.find((t) => t.id === id);
   if (!todo) {
-    console.log("⚠️ Todo not found");
+    console.log("Todo not found ❌");
     return;
   }
   todo.completed = true;
