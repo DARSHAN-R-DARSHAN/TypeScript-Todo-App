@@ -36,7 +36,7 @@ function completeTodo(id: number): void {
     return;
   }
   todo.completed = true;
-  console.log("🎉 Todo completed:", todo.title);
+  console.log("Todo completed ✅:", todo.title);
 }
 
 /* CLI logic */
